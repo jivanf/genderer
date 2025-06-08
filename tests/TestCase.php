@@ -10,8 +10,7 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 class TestCase extends Orchestra
 {
     /**
-     * @param Application $app
-     *
+     * @param  Application  $app
      * @return list<class-string<PackageServiceProvider>>
      */
     protected function getPackageProviders($app): array
